@@ -158,7 +158,6 @@ body{
     display: flex;
 }
 .footer{
-    margin: 0 auto;
     height: 2vh;
 }
 .artp{
@@ -212,8 +211,9 @@ body{
     font-weight: bold;
 }
 .fp1{
-    margin: 0 auto;
+    text-align: center;
     font-size: 0.75rem;
+    text-indent: 0;
 }
 @media screen and (max-width: 1200px) {
     .header{
@@ -322,10 +322,9 @@ body{
         margin-left: 0;
         border-bottom: none;
     }
-    rightim {
-        margin: auto;
-    }
     .bord{
+        padding-left: 0;
+        height: 0;
         border-left: none;
     }
     .title{
@@ -366,9 +365,17 @@ body{
         height: 10vh;
         order: 2;
     }
+    .body-botton-left-text{
+        padding-left: 0;
+    }
+    .artboa {
+        padding-left: 0; 
+        padding-right: 0; 
+    }
     .body-botton-right{
         height: 10vh;
         order: 1;
+        padding-left: 0;
     }
     .body-botton-rightim{
         height: 8vh;
@@ -387,5 +394,44 @@ body{
     }
     .nee{
         border-right: none;
+    }
+}
+@media screen and (max-width: 768px) {
+    .headLeft{
+        width: 100%;
+    }
+    .headRight{
+        display: block;
+    }
+    .text-img{
+        height: 15vh;
+    }
+    .body-top-right{
+        padding-left: 0;
+    }
+    .bord{
+        padding-left: 0;
+    }
+    .body-botton{
+        display: flex;
+        flex-direction:column;
+    }
+    .body-botton-left{
+        height: auto;
+        order: 2;
+    }
+    .body-botton-right{
+        height: auto;
+    }
+    .bp1{
+        font-size: 0.9rem;
+        line-height: 1.1rem;
+    }
+    .bp2{
+        font-size: 1rem;
+        line-height: 1.1rem;
+    }
+    .laimZ{
+        margin-bottom: 5px;
     }
 }

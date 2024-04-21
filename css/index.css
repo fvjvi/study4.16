@@ -199,7 +199,7 @@ body{
 }
 .nee{
     padding-right: 0;
-    border-right: 2px solid black;
+    border-right: 1px solid black;
 }
 .bp1{
     font-size: 1.4rem; 
@@ -214,8 +214,17 @@ body{
     font-size: 0.75rem;
 }
 @media screen and (max-width: 1200px) {
+    .header{
+        height: auto;
+    }
+    .headRight,.headLeft{
+        height: auto;
+    }
     .body-top{
-        height: 170vh;
+        height: auto;
+    }
+    .body-top-right{
+        padding-left: 10px;
     }
     .col-lg-3{
         padding: 5px;
@@ -229,8 +238,14 @@ body{
     .artimg img{
         width: 100%;
     }
+    .body-botton{
+        height: auto;
+    }
+    .body-botton-left{
+        height: auto;
+    }
     .body-botton-leftim{
-        height: 76vh;
+        height: auto;
     }
     .body-botton-left-text{
         display: block;
@@ -243,7 +258,7 @@ body{
     }
     .title{
         width: 46%;
-        height: 100vh;
+        height: auto;
     }
     .title h1{
         padding: 0;
@@ -256,6 +271,24 @@ body{
     .lgt{
         width: 50%;
     }
+    .laim{
+        height: auto;
+    }
+    .laim div {
+        margin: 0;
+    }
+    .bp1{
+        font-size: 1.1rem;
+    }
+    .bp2{
+        font-size: 1.2rem;
+    }
+    .fp1{
+        font-size: 0.45rem;
+    }
+    .nee{
+        border: none;
+    }
 }
 @media screen and (max-width: 992px) {
     .header{
@@ -264,10 +297,10 @@ body{
     .headLeft{
         margin: 0 auto;
         width: 60vh;
-        height: 20vh;
+        height: 15vh;
     }
     .headRight{
-        height: 31vh;
+        height: auto;
     }
     .headLeft-img{
         border-right:none;
@@ -279,11 +312,16 @@ body{
         padding: 0;
     }
     .body-top{
-        height: 205vh;
+        height: auto;
         display: block;
     }
     .bor{
+        height: 0;
+        margin-left: 0;
         border-bottom: none;
+    }
+    rightim {
+        margin: auto;
     }
     .bord{
         border-left: none;
@@ -293,7 +331,7 @@ body{
         float: none;
         display: block;
         transform: none;
-        height: 13vh;
+        height: auto;
     }
     .title h1{
         display: flex;
@@ -319,7 +357,7 @@ body{
         height: auto;
     }
     .body-botton-leftim{
-        height: 78vh;
+        height: auto;
         border: none;
     }
     .body-botton-left{

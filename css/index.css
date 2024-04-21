@@ -82,7 +82,7 @@ body{
 }
 .body-top{
     display: flex;
-    height: 140vh;
+    height: auto;
 }
 .body-top-left ,.body-top-right{
     padding: 0;

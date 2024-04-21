@@ -50,7 +50,7 @@ body{
     border-bottom: 2px solid black;
 }
 .headRight ,.headLeft{
-    height: 35vh;
+    height: auto;
     display: flex;
     padding: 0;
     padding-bottom: 10px;
@@ -58,7 +58,7 @@ body{
 .headLeft-img{
     display: block;
     width: 100%;
-    height: 100%;
+    height: auto;
     padding: 10px;
     padding-top: 0;
     padding-bottom: 0;
@@ -66,13 +66,13 @@ body{
 }
 .text-img ,.text-char{
     padding: 0;
-    height: 100%;
+    height: auto;
     width: 100%;
 }
 .textImg{
     display: block;
     width: 100%;
-    height: 100%;
+    height: auto;
     padding: 10px;
     padding-bottom: 0;
     padding-top: 0;
@@ -102,17 +102,17 @@ body{
 }
 .body-botton{
     display: flex;
-    height: 100vh;
+    height: auto;
     border-bottom: 1px solid black;
 }
 .body-botton-left ,.body-botton-right{
     padding: 0;
 }
 .body-botton-left{
-    height: 100vh;
+    height: auto;
 }
 .body-botton-leftim{
-    height: 78vh;
+    height: auto;
     border: 4px solid rgb(177, 175, 176);
 }
 .body-botton-left-img{
@@ -133,7 +133,7 @@ body{
     padding: 10px;
 }
 .laim{
-    height: 20%;
+    height: auto;
     display: flex;
 }
 .laim div{
@@ -152,13 +152,13 @@ body{
 .artimg img{
     display: block;
     width: 145%;
-    height: 100%;
+    height: auto;
 }
 .article{
     display: flex;
 }
 .footer{
-    height: 2vh;
+    height: auto;
 }
 .artp{
     line-height: 1.3rem;
@@ -172,7 +172,7 @@ body{
 }
 .title{
     width: 36.5%;
-    height: 40%;
+    height: auto;
     float: right;
     display: flex;
     justify-content: flex-end;
@@ -188,7 +188,7 @@ body{
     padding-left: 10px;
 }
 .body-botton-rightim{
-    height: 8%;
+    height: auto;
 }
 .rightim{
     display: block;

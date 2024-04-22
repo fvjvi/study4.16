@@ -67,12 +67,10 @@ body{
 }
 .text-img ,.text-char{
     padding: 0;
-    height: auto;
     width: 100%;
 }
 .text-img{
     display: block;
-    height: auto;
 }
 .textImg{
     display: block;
@@ -217,6 +215,24 @@ body{
     font-size: 0.75rem;
     text-indent: 0;
 }
+
+@media screen and (min-width: 1200px) {
+    .header{
+        height: auto;
+    }
+    .headRight,.headLeft{
+        height: auto;
+        margin-bottom: -10px;
+    }
+    .textImg{
+        height: 90%;
+    }
+    .headLeft-img{
+        height: 90%;
+    }
+
+}
+
 @media screen and (max-width: 1200px) {
     .header{
         height: auto;

@@ -28,6 +28,34 @@ var e2 = document.getElementById("e2");
 var e3 = document.getElementById("e3");
 var g1 = document.getElementById("g1");
 var g2 = document.getElementById("g2");
+var p1 = document.getElementById("p1");
+var p2 = document.getElementById("p2");
+var p3 = document.getElementById("p3");
+var p4 = document.getElementById("p4");
+var p5 = document.getElementById("p5");
+var p6 = document.getElementById("p6");
+var p7 = document.getElementById("p7");
+var p8 = document.getElementById("p8");
+var p9 = document.getElementById("p9");
+var p10 = document.getElementById("p10");
+var p11 = document.getElementById("p11");
+var p12 = document.getElementById("p12");
+var p13 = document.getElementById("p13");
+var p14 = document.getElementById("p14");
+var p15 = document.getElementById("p15");
+var p16 = document.getElementById("p16");
+var p17 = document.getElementById("p17");
+var p18 = document.getElementById("p18");
+var p19 = document.getElementById("p19");
+var p20 = document.getElementById("p20");
+var at1 = document.getElementById("art1");
+var at2 = document.getElementById("art2");
+var at3 = document.getElementById("art3");
+var at4 = document.getElementById("art4");
+var at5 = document.getElementById("art5");
+var at6 = document.getElementById("art6");
+var conta = document.getElementById("conta");
+var contb = document.getElementById("contb");
 
 if (window.innerWidth >= 1200) {
     g1.innerHTML = "新华社北京4月17日电 神舟十八 号载人飞船计划近日择机实施发射，船箭组合体已转运至发射区（左图 新华社照片）。";
@@ -48,6 +76,7 @@ if (window.innerWidth >= 1200) {
     a13.innerHTML ="会议强调，要统筹推进高质量发展和高水平安全，促进  房地产市场平稳健康发展，切实防范化解金融风险，扎紧筑牢安全生产防线，继续做好地方  债务风险防范化解工作，兜住兜准兜牢民生底线，全力以赴维护社会安全稳定。";
 
     b1.innerHTML = "本报讯 （记者朱文君）4月17日，北京海博思创华东区域总部及“四中心一基地”项目正式签约。市委书记吴新明，北京海博思创科技股份有限公司董事长、总经理张剑辉等见证签约。";
+    b1a.innerHTML = "";
     b2.innerHTML = "我市始终将绿色低碳转型作为推进新型工业化的重要内容，已发展形成了以风电、光伏、储能等为主的新能源产业集群。其中储能产业布局较早，集聚了一批有影响力的企业，正在加快强链补链延";
     b3.innerHTML = "链，不断提升产业竞争实力。";
     b4.innerHTML = "北京海博思创科技股份有限公司是国内领先的储能系统集成与解决方案技术服务提供商，拥有国内领先的电池测试实验室。该项目落户启东";
@@ -66,7 +95,7 @@ if (window.innerWidth >= 1200) {
     e3.innerHTML ="创新开设的“道口开设一件事”专窗，打破了以往多部门串联审批、分头踏勘、分散办理的工作模式，优化为一个部门统一受理、联合踏勘、集中会办的“集成”工作模式。实现了从“群众跑”到“数据跑”“政府跑”的转变，无形中使部门之间的协作更为密切，也切实提高了“一件事情”的办事效率。";
 } 
 if(window.innerWidth < 1200){
-    g1.innerHTML = "新华社北京4月17日电 神舟十八 号载人飞船计划近日择机实施发射，船箭组合体已转运至发射区（左图 新华社照片）。";
+    //g1.innerHTML = "新华社北京4月17日电 神舟十八 号载人飞船计划近日择机实施发射，船箭组合体已转运至发射区（左图 新华社照片）。";
     g2.innerHTML = "据中国载人航天工程办公室介绍 ，4月17日，神舟十八号载人飞船与长征二号F遥十八运载火箭组合体已转运至发射区。目前，发射场设施设备状态良好，后续将按计划开展发射前的各项功能检查、联合测试等工作。";
 
     a1.innerHTML = "本报综合消息 4月17日，省委常委会召开会议，学习贯彻习近平总书记近期重要讲话重要文章精神，分析全省一季度经济形势，研究部署下一阶段工作。省委书记信长星主持会议并讲话。";
@@ -121,6 +150,7 @@ if(window.innerWidth <= 992){
     a13.innerHTML ="会议强调，要统筹推进高质量发展和高水平安全，促进  房地产市场平稳健康发展，切实防范化解金融风险，扎紧筑牢安全生产防线，继续做好地方  债务风险防范化解工作，兜住兜准兜牢民生底线，全力以赴维护社会安全稳定。";
 
     b1.innerHTML = "本报讯 （记者朱文君）4月17日，北京海博思创华东区域总部及“四中心一基地”项目正式签约。市委书记吴新明，北京海博思创科技股份有限公司董事长、总经理张剑辉等见证签约。";
+    b1a.innerHTML = "";
     b2.innerHTML = "我市始终将绿色低碳转型作为推进新型工业化的重要内容，已发展形成了以风电、光伏、储能等为主的新能源产业集群。其中储能产业布局较早，集聚了一批有影响力的企业，正在加快强链补链延链，不断提升产业竞争实力。";
     b3.innerHTML = "";
     b4.innerHTML = "北京海博思创科技股份有限公司是国内领先的储能系统集成与解决方案技术服务提供商，拥有国内领先的电池测试实验室。该项目落户启东高新技术产业开发区，总投资40亿元，其中一期项目将建设研发中心、营销中心、实验测试中心、数智化运维中心和“零碳”智能制造基地。";
@@ -157,6 +187,7 @@ if(window.innerWidth <= 768){
     a13.innerHTML ="会议强调，要统筹推进高质量发展和高水平安全，促进  房地产市场平稳健康发展，切实防范化解金融风险，扎紧筑牢安全生产防线，继续做好地方  债务风险防范化解工作，兜住兜准兜牢民生底线，全力以赴维护社会安全稳定。";
 
     b1.innerHTML = "本报讯 （记者朱文君）4月17日，北京海博思创华东区域总部及“四中心一基地”项目正式签约。市委书记吴新明，北京海博思创科技股份有限公司董事长、总经理张剑辉等见证签约。";
+    b1a.innerHTML = "";
     b2.innerHTML = "我市始终将绿色低碳转型作为推进新型工业化的重要内容，已发展形成了以风电、光伏、储能等为主的新能源产业集群。其中储能产业布局较早，集聚了一批有影响力的企业，正在加快强链补链延链，不断提升产业竞争实力。";
     b3.innerHTML = "";
     b4.innerHTML = "北京海博思创科技股份有限公司是国内领先的储能系统集成与解决方案技术服务提供商，拥有国内领先的电池测试实验室。该项目落户启东高新技术产业开发区，总投资40亿元，其中一期项目将建设研发中心、营销中心、实验测试中心、数智化运维中心和“零碳”智能制造基地。";
@@ -193,6 +224,7 @@ if(window.innerWidth <= 576){
     a13.innerHTML ="会议强调，要统筹推进高质量发展和高水平安全，促进  房地产市场平稳健康发展，切实防范化解金融风险，扎紧筑牢安全生产防线，继续做好地方  债务风险防范化解工作，兜住兜准兜牢民生底线，全力以赴维护社会安全稳定。";
 
     b1.innerHTML = "本报讯 （记者朱文君）4月17日，北京海博思创华东区域总部及“四中心一基地”项目正式签约。市委书记吴新明，北京海博思创科技股份有限公司董事长、总经理张剑辉等见证签约。";
+    b1a.innerHTML = "";
     b2.innerHTML = "我市始终将绿色低碳转型作为推进新型工业化的重要内容，已发展形成了以风电、光伏、储能等为主的新能源产业集群。其中储能产业布局较早，集聚了一批有影响力的企业，正在加快强链补链延链，不断提升产业竞争实力。";
     b3.innerHTML = "";
     b4.innerHTML = "北京海博思创科技股份有限公司是国内领先的储能系统集成与解决方案技术服务提供商，拥有国内领先的电池测试实验室。该项目落户启东高新技术产业开发区，总投资40亿元，其中一期项目将建设研发中心、营销中心、实验测试中心、数智化运维中心和“零碳”智能制造基地。";
